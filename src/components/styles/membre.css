@@ -1,0 +1,41 @@
+.user_contener{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    min-height: 70vh;
+ 
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.inlB{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.ctnr{
+    padding: 0px 100px 0px 100px;
+    margin-top: 4%;
+    
+}
+.inlB h5{
+    color: #2d87ff;
+    font-weight: 400;
+    margin-right: 20px;
+}
+.inlB__1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inlB__1 label{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.inlB__1 input{
+    margin-left: 20px;
+}

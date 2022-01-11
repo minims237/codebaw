@@ -1,0 +1,24 @@
+.post__contener{
+   
+    background: #fff;
+}
+.post__contener_table{
+    padding: 50px;
+}
+p{
+    margin:20px ;
+}
+table{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+}
+td{
+    border-bottom: 1px solid #00bcef;
+}
+.scr{
+    height: 60vh;
+      overflow-y: scroll;
+    scroll-behavior: auto;
+}

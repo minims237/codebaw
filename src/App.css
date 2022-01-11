@@ -1,0 +1,11 @@
+
+.app{
+  display: flex;
+  flex-direction: row;
+  justify-content: space;
+  background: white;
+  width: 100%;
+}
+.app__right{
+  width: 100%;
+}

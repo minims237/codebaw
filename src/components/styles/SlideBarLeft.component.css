@@ -1,0 +1,65 @@
+.contener {
+  display: flex;
+  flex-direction: column;
+  background: #1b2033;
+  height: 100vh;
+  width: 100%;
+  min-width: 250px;
+  box-shadow: 0px 5px 0px #2d87ff;
+}
+.container__profil {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-shadow: 0px 5px 0px #2d87ff;
+  margin-bottom: 26px;
+  background-color: white;
+}
+.container__profil h3 {
+  color: #2d87ff;
+  font-weight:400 ;
+  font-size: 20px;
+}
+.container__profil p {
+  color: white;
+}
+.container__profil__image {
+  border: 2px solid white;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+}
+.container__menu nav .ul .li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+}
+.container__menu nav .ul .li {
+  padding: 7px;
+  height: 50px;
+  width: 250px;
+ 
+}
+.container__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 5%;
+}
+.container__menu nav .ul .li :active {
+  background: #252831;
+  border-left: 4px solid #2d87ff;
+}
+.container__menu nav .ul .li:focus {
+  background: #252831;
+  border-left: 4px solid #2d87ff;
+}
+.container__menu nav .ul .li:hover {
+  background: #252831;
+  border-left: 4px solid #2d87ff;
+}
+
